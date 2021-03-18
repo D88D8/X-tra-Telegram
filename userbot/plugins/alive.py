@@ -1,4 +1,5 @@
-"""Check if userbot alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
+"""عند الشك من توقف التيليثون لديك 
+قم بارسال امر .alive """
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
@@ -11,9 +12,9 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**No Name set yet.** [Check Gu
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("`Currently Alive, my peru master!` **ψ(｀∇´)ψ**\n\n"
-                     "`Telethon version: 6.9.0\nPython: 3.7.3\n`"
-                     # Don't change this else you a TikTok loser, Son of Jinping. Add your own.
-                     "`Bot created by:` [SnapDragon](tg://user?id=719877937), @anubisxx\n"
-                     f"`My peru owner`: {DEFAULTUSER}\n\n"
-                     "https://github.com/Dark-Princ3/X-tra-Telegram")
+    await alive.edit("ان حسابك نشط اطمئن ✅"
+                     
+                     
+                     "تم انشاء البوت من قبل : [- ᴀʜᴍᴀᴅ ᴀʟ ʙᴀʀᴏɴ⁦ .](tg://user?id=801023241)" 
+                   "لـ  {DEFAULTUSER}"
+                     "قناتي ~ [- B ʟ ᴀ ᴄ ᴋ T ᴇ ᴀ ᴍ.](https://t.me/cqcqq)"
